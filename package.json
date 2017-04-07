@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"homebridge-sonos",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "homebridge-sonos",
+    "description": "api documentation for [homebridge-sonos (v0.2.1)](https://github.com/nfarina/homebridge-sonos#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-homebridge-sonos.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-homebridge-sonos) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-homebridge-sonos.svg)](https://travis-ci.org/npmdoc/node-npmdoc-homebridge-sonos)",
     "devDependencies": {
-        "homebridge-sonos": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "homebridge-sonos": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-homebridge-sonos",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-homebridge-sonos",
+    "keywords": [
+        "documentation",
+        "homebridge-sonos"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_homebridge_sonos.js",
+    "name": "npmdoc-homebridge-sonos",
+    "nameAlias": "npmdoc_homebridge_sonos",
+    "nameOriginal": "npmdoc-homebridge-sonos",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-homebridge-sonos"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
