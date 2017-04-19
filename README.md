@@ -1,9 +1,14 @@
-# api documentation for  [homebridge-sonos (v0.2.1)](https://github.com/nfarina/homebridge-sonos#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-homebridge-sonos.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-homebridge-sonos) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-homebridge-sonos.svg)](https://travis-ci.org/npmdoc/node-npmdoc-homebridge-sonos)
+# npmdoc-homebridge-sonos
+
+#### api documentation for  [homebridge-sonos (v0.2.1)](https://github.com/nfarina/homebridge-sonos#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-homebridge-sonos.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-homebridge-sonos) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-homebridge-sonos.svg)](https://travis-ci.org/npmdoc/node-npmdoc-homebridge-sonos)
+
 #### Sonos plugin for homebridge: https://github.com/nfarina/homebridge
 
-[![NPM](https://nodei.co/npm/homebridge-sonos.png?downloads=true)](https://www.npmjs.com/package/homebridge-sonos)
+[![NPM](https://nodei.co/npm/homebridge-sonos.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/homebridge-sonos)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-homebridge-sonos/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-homebridge-sonos_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-homebridge-sonos/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-homebridge-sonos/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-homebridge-sonos/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-homebridge-sonos/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-homebridge-sonos/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-homebridge-sonos/build/screenCapture.npmPackageListing.svg)
 
@@ -42,13 +47,11 @@
     "license": "ISC",
     "maintainers": [
         {
-            "name": "nfarina",
-            "email": "nfarina@gmail.com"
+            "name": "nfarina"
         }
     ],
     "name": "homebridge-sonos",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/nfarina/homebridge-sonos.git"
@@ -57,16 +60,6 @@
     "version": "0.2.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module homebridge-sonos](#apidoc.module.homebridge-sonos)
-
-
-
-# <a name="apidoc.module.homebridge-sonos"></a>[module homebridge-sonos](#apidoc.module.homebridge-sonos)
 
 
 
